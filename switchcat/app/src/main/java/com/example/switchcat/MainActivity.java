@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     public void change(View view){
         ImageView image = (ImageView) findViewById(R.id.catimage);
         image.setImageResource(R.drawable.cat2);
+
     }
 
     @Override
